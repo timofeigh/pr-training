@@ -1,6 +1,6 @@
 from models.exceptions import ValidationError
 
-
+# Валидация email
 class User:
     def __init__(self, name, email):
         if '@' not in email:
