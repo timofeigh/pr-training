@@ -38,4 +38,10 @@ class Product:
             raise ValidationError('Цена не может быть отрицательной')
         self.price = price
 
+    def check_stock(self):
+        pass
+
+    def update_stock(self):
+        pass
+
 
