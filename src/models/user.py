@@ -9,7 +9,7 @@ class User:
         self._email = email
 
     def get_info(self):
-        return f'Пользователь: {self.name}, Email: {self.email}'
+        return f'Пользователь: {self.name}, Email: {self._email}'
     
     def get_email(self):
         return self._email
