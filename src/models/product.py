@@ -39,4 +39,5 @@ class Product:
             raise ValidationError('Цена не может быть отрицательной')
         self.price = price
 
-
+    def calculate_shipping(self):
+        pass
