@@ -26,8 +26,9 @@ class Product:
         return self.price < other.price
 
     def get_total_price(self):
-        return self.price * self.quantity #aaaa
-    
+
+        return self.price * self.quantity #aaaa qwe
+
     def sell(self, amount):
         if self.quantity < amount:
             raise InsufficientStockError(f'Товара недостаточно. На складе: {self.quantity}, требуется {amount}')
