@@ -26,7 +26,7 @@ class Product:
         return self.price < other.price
 
     def get_total_price(self):
-        return self.price * self.quantity
+        return self.price * self.quantity #aaaa
     
     def sell(self, amount):
         if self.quantity < amount:
