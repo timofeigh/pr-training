@@ -41,3 +41,4 @@ class Product:
 
     def get_category(self):
         pass
+
